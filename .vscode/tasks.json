@@ -1,0 +1,12 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run_container_attach",
+            "type": "shell",
+        "command": "docker run --rm -it -v `pwd`/prismo:/var/lib/multicraft/worlds/prismo -p 30000:30000/udp minetestdev:latest"
+        }
+    ]
+}
