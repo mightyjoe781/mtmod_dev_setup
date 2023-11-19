@@ -6,7 +6,12 @@
         {
             "label": "run_container_attach",
             "type": "shell",
-        "command": "docker run --rm -it -v `pwd`/prismo:/var/lib/multicraft/worlds/prismo -p 30000:30000/udp minetestdev:latest"
+            "command": "docker run --rm -it -v `pwd`/prismo:/var/lib/multicraft/worlds/prismo -p 30000:30000/udp minetestdev:latest"
+        },
+        {
+            "label": "launch multicraft",
+            "type": "shell",
+            "command": "/Applications/MultiCraft.app/Contents/MacOS/MultiCraft --address 127.0.0.1 --port 30000 --name smk --password 1234 --go --quiet"
         }
     ]
 }

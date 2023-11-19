@@ -713,3 +713,552 @@
 2023-11-19 12:29:38: INFO[Main]: ServerMap: Saved map to /var/lib/multicraft/worlds/prismo
 2023-11-19 12:29:38: INFO[Main]: BanManager: saving to /var/lib/multicraft/worlds/prismo/ipban.txt
 2023-11-19 12:29:38: INFO[Main]: Server: Deinitializing scripting
+
+
+-------------
+  Separator
+-------------
+
+2023-11-19 13:23:52: INFO[Main]: Message locale is now set to: C.UTF-8;C;C;C;C;C
+2023-11-19 13:23:52: [Main]: Using game specified by --gameid on the command line
+2023-11-19 13:23:52: INFO[Main]: Server created for gameid "minetest"
+2023-11-19 13:23:52: INFO[Main]: - world:  /var/lib/multicraft/worlds/prismo
+2023-11-19 13:23:52: INFO[Main]: - game:   /usr/local/share/multicraft/games/minetest_game
+2023-11-19 13:23:52: INFO[Main]: Initializing world at /var/lib/multicraft/worlds/prismo
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="default" index=0 uid=122
+2023-11-19 13:23:52: INFO[Main]: EmergeManager: using 1 threads
+2023-11-19 13:23:52: INFO[Main]: BanManager: loading from /var/lib/multicraft/worlds/prismo/ipban.txt
+2023-11-19 13:23:52: INFO[Main]: ServerMap: Metadata loaded from /var/lib/multicraft/worlds/prismo
+2023-11-19 13:23:52: INFO[Main]: Server: Initializing Lua
+2023-11-19 13:23:52: INFO[Main]: SCRIPTAPI: Initialized game modules
+2023-11-19 13:23:52: INFO[Main]: Server: Loading mods: greeting weather sfinv mtg_craftguide sethome screwdriver player_api default walls stairs give_initial_stuff flowers butterflies fire tnt env_sounds dungeon_loot vessels fireflies carts bucket doors xpanes creative bones boats binocul
+2023-11-19 13:23:52: INFO[Main]: ars game_commands dye wool farming smk_custom beds spawn map 
+2023-11-19 13:23:52: INFO[Main]: Mod "greeting" loaded after 1 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "weather" loaded after 0 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "sfinv" loaded after 1 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "mtg_craftguide" loaded after 1 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "sethome" loaded after 0 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "screwdriver" loaded after 1 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "player_api" loaded after 0 ms
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="icesheet" index=1 uid=50
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="icesheet_ocean" index=2 uid=6
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="icesheet_under" index=3 uid=42
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="tundra_highland" index=4 uid=61
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="tundra" index=5 uid=103
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="tundra_beach" index=6 uid=15
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="tundra_ocean" index=7 uid=17
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="tundra_under" index=8 uid=15
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="taiga" index=9 uid=54
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="taiga_ocean" index=10 uid=30
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="taiga_under" index=11 uid=107
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="snowy_grassland" index=12 uid=97
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="snowy_grassland_ocean" index=13 uid=10
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="snowy_grassland_under" index=14 uid=100
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="grassland" index=15 uid=1
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="grassland_dunes" index=16 uid=95
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="grassland_ocean" index=17 uid=83
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="grassland_under" index=18 uid=48
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="coniferous_forest" index=19 uid=55
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="coniferous_forest_dunes" index=20 uid=113
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="coniferous_forest_ocean" index=21 uid=109
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="coniferous_forest_under" index=22 uid=8
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="deciduous_forest" index=23 uid=38
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="deciduous_forest_shore" index=24 uid=124
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="deciduous_forest_ocean" index=25 uid=40
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="deciduous_forest_under" index=26 uid=89
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="desert" index=27 uid=92
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="desert_ocean" index=28 uid=8
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="desert_under" index=29 uid=61
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="sandstone_desert" index=30 uid=97
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="sandstone_desert_ocean" index=31 uid=75
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="sandstone_desert_under" index=32 uid=74
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="cold_desert" index=33 uid=41
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="cold_desert_ocean" index=34 uid=65
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="cold_desert_under" index=35 uid=110
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="savanna" index=36 uid=70
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="savanna_shore" index=37 uid=16
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="savanna_ocean" index=38 uid=95
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="savanna_under" index=39 uid=39
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="rainforest" index=40 uid=52
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="rainforest_swamp" index=41 uid=64
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="rainforest_ocean" index=42 uid=28
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added biome: name="rainforest_under" index=43 uid=55
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=0 uid=58
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=1 uid=116
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=2 uid=107
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=3 uid=60
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=4 uid=31
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=5 uid=16
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=6 uid=86
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=7 uid=124
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=8 uid=49
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=9 uid=101
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=10 uid=11
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=11 uid=87
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=12 uid=35
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=13 uid=28
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=14 uid=8
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=15 uid=37
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=16 uid=14
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=17 uid=98
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=18 uid=118
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=19 uid=35
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=20 uid=33
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=21 uid=8
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=22 uid=27
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=23 uid=19
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=24 uid=68
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=25 uid=127
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=26 uid=9
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=27 uid=57
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=28 uid=3
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=29 uid=55
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=30 uid=105
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=31 uid=30
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added ore: name="" index=32 uid=76
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="" index=0 uid=124
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/apple_tree.mts" index=0 uid=113
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:apple_tree" index=1 uid=57
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/apple_log.mts" index=1 uid=66
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:apple_log" index=2 uid=121
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/emergent_jungle_tree.mts" index=2 uid=88
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:emergent_jungle_tree" index=3 uid=114
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/jungle_tree.mts" index=3 uid=109
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:jungle_tree" index=4 uid=108
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:jungle_tree(swamp)" index=5 uid=75
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/jungle_log.mts" index=4 uid=15
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:jungle_log" index=6 uid=68
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/pine_tree.mts" index=5 uid=16
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:pine_tree" index=7 uid=50
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/small_pine_tree.mts" index=6 uid=14
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:small_pine_tree" index=8 uid=124
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/pine_log.mts" index=7 uid=48
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:pine_log" index=9 uid=116
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/acacia_tree.mts" index=8 uid=7
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:acacia_tree" index=10 uid=35
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/acacia_log.mts" index=9 uid=8
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:acacia_log" index=11 uid=59
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/aspen_tree.mts" index=10 uid=1
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:aspen_tree" index=12 uid=93
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/aspen_log.mts" index=11 uid=99
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:aspen_log" index=13 uid=95
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/large_cactus.mts" index=12 uid=42
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:large_cactus" index=14 uid=13
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:cactus" index=15 uid=33
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/papyrus_on_dirt.mts" index=13 uid=58
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:papyrus_on_dirt" index=16 uid=14
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/papyrus_on_dry_dirt.mts" index=14 uid=44
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:papyrus_on_dry_dirt" index=17 uid=74
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/bush.mts" index=15 uid=3
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:bush" index=18 uid=50
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/blueberry_bush.mts" index=16 uid=83
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:blueberry_bush" index=19 uid=84
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/acacia_bush.mts" index=17 uid=3
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:acacia_bush" index=20 uid=124
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/pine_bush.mts" index=18 uid=114
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:pine_bush" index=21 uid=87
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:grass_5" index=22 uid=41
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:grass_4" index=23 uid=80
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:grass_3" index=24 uid=120
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:grass_2" index=25 uid=115
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:grass_1" index=26 uid=86
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:dry_grass_5" index=27 uid=6
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:dry_grass_4" index=28 uid=101
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:dry_grass_3" index=29 uid=25
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:dry_grass_2" index=30 uid=21
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:dry_grass_1" index=31 uid=1
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:fern_3" index=32 uid=33
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:fern_2" index=33 uid=43
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:fern_1" index=34 uid=71
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:junglegrass" index=35 uid=56
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:dry_shrub" index=36 uid=126
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:marram_grass" index=37 uid=80
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="" index=38 uid=63
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="" index=39 uid=85
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:corals" index=40 uid=31
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:kelp" index=41 uid=80
+2023-11-19 13:23:52: INFO[Main]: Mod "default" loaded after 31 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "walls" loaded after 0 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "stairs" loaded after 8 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "give_initial_stuff" loaded after 0 ms
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="flowers:rose" index=42 uid=87
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="flowers:tulip" index=43 uid=47
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="flowers:dandelion_yellow" index=44 uid=47
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="flowers:chrysanthemum_green" index=45 uid=125
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="flowers:geranium" index=46 uid=11
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="flowers:viola" index=47 uid=15
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="flowers:dandelion_white" index=48 uid=72
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="flowers:tulip_black" index=49 uid=21
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="flowers:mushroom_brown" index=50 uid=47
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="flowers:mushroom_red" index=51 uid=90
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="default:waterlily" index=52 uid=84
+2023-11-19 13:23:52: INFO[Main]: Mod "flowers" loaded after 2 ms
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="butterflies:butterfly" index=53 uid=66
+2023-11-19 13:23:52: INFO[Main]: Mod "butterflies" loaded after 0 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "fire" loaded after 0 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "tnt" loaded after 1 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "env_sounds" loaded after 0 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "dungeon_loot" loaded after 1 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "vessels" loaded after 0 ms
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="fireflies:firefly_low" index=54 uid=1
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="fireflies:firefly_high" index=55 uid=96
+2023-11-19 13:23:52: INFO[Main]: Mod "fireflies" loaded after 1 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "carts" loaded after 1 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "bucket" loaded after 0 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "doors" loaded after 2 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "xpanes" loaded after 1 ms
+2023-11-19 13:23:52: INFO[Main]: Server creating detached inventory "creative_trash"
+2023-11-19 13:23:52: INFO[Main]: Mod "creative" loaded after 1 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "bones" loaded after 0 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "boats" loaded after 0 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "binoculars" loaded after 0 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "game_commands" loaded after 1 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "dye" loaded after 0 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "wool" loaded after 1 ms
+2023-11-19 13:23:52: INFO[Main]: ObjDefManager: added decoration: name="farming:cotton_wild" index=56 uid=3
+2023-11-19 13:23:52: INFO[Main]: Mod "farming" loaded after 2 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "smk_custom" loaded after 9 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "beds" loaded after 3 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "spawn" loaded after 1 ms
+2023-11-19 13:23:52: INFO[Main]: Mod "map" loaded after 0 ms
+2023-11-19 13:23:52: INFO[Main]: Server: Calculating media file checksums
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "license.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "carts_cart.blend"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "character.blend"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:23:52: INFO[Main]: Server: 921 media files collected
+2023-11-19 13:23:52: INFO[Main]: EmergeManager: Created params 0xffff96281cf0 for thread 0
+2023-11-19 13:23:52: INFO[Main]: ServerEnvironment: Loading environment metadata
+2023-11-19 13:23:52: INFO[Main]: Starting server on 0.0.0.0...
+2023-11-19 13:23:52: ACTION[Main]: World at [/var/lib/multicraft/worlds/prismo]
+2023-11-19 13:23:52: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:30000.
+2023-11-19 13:32:46: [Main]: INFO: signal_handler(): Ctrl-C pressed, shutting down.
+2023-11-19 13:32:46: INFO[Main]: Dedicated server quitting
+2023-11-19 13:32:46: INFO[Main]: Server: Saving players
+2023-11-19 13:32:46: INFO[Main]: Server: Kicking players
+2023-11-19 13:32:46: ACTION[Main]: Server: Shutting down
+2023-11-19 13:32:46: INFO[Main]: Executing shutdown hooks
+2023-11-19 13:32:46: INFO[Main]: Server: Saving environment metadata
+2023-11-19 13:32:46: INFO[Main]: Server: Stopping and waiting threads
+2023-11-19 13:32:46: INFO[Main]: Server: Threads stopped
+2023-11-19 13:32:46: INFO[Main]: EmergeParams: destroying 0xffff96281cf0
+2023-11-19 13:32:46: INFO[Main]: ServerMap: Saved map to /var/lib/multicraft/worlds/prismo
+2023-11-19 13:32:46: INFO[Main]: BanManager: saving to /var/lib/multicraft/worlds/prismo/ipban.txt
+2023-11-19 13:32:46: INFO[Main]: Server: Deinitializing scripting
+
+
+-------------
+  Separator
+-------------
+
+2023-11-19 13:32:54: INFO[Main]: Message locale is now set to: C.UTF-8;C;C;C;C;C
+2023-11-19 13:32:54: [Main]: Using game specified by --gameid on the command line
+2023-11-19 13:32:54: INFO[Main]: Server created for gameid "minetest"
+2023-11-19 13:32:54: INFO[Main]: - world:  /var/lib/multicraft/worlds/prismo
+2023-11-19 13:32:54: INFO[Main]: - game:   /usr/local/share/multicraft/games/minetest_game
+2023-11-19 13:32:54: INFO[Main]: Initializing world at /var/lib/multicraft/worlds/prismo
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="default" index=0 uid=67
+2023-11-19 13:32:54: INFO[Main]: EmergeManager: using 1 threads
+2023-11-19 13:32:54: INFO[Main]: BanManager: loading from /var/lib/multicraft/worlds/prismo/ipban.txt
+2023-11-19 13:32:54: INFO[Main]: ServerMap: Metadata loaded from /var/lib/multicraft/worlds/prismo
+2023-11-19 13:32:54: INFO[Main]: Server: Initializing Lua
+2023-11-19 13:32:54: INFO[Main]: SCRIPTAPI: Initialized game modules
+2023-11-19 13:32:54: INFO[Main]: Server: Loading mods: greeting weather sfinv mtg_craftguide sethome screwdriver player_api default walls stairs give_initial_stuff flowers butterflies fire tnt env_sounds dungeon_loot vessels fireflies carts bucket doors xpanes creative bones boats binocul
+2023-11-19 13:32:54: INFO[Main]: ars game_commands dye wool farming smk_custom beds spawn map 
+2023-11-19 13:32:54: INFO[Main]: Mod "greeting" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "weather" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "sfinv" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "mtg_craftguide" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "sethome" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "screwdriver" loaded after 1 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "player_api" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="icesheet" index=1 uid=5
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="icesheet_ocean" index=2 uid=23
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="icesheet_under" index=3 uid=90
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="tundra_highland" index=4 uid=90
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="tundra" index=5 uid=19
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="tundra_beach" index=6 uid=25
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="tundra_ocean" index=7 uid=116
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="tundra_under" index=8 uid=93
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="taiga" index=9 uid=62
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="taiga_ocean" index=10 uid=59
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="taiga_under" index=11 uid=66
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="snowy_grassland" index=12 uid=103
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="snowy_grassland_ocean" index=13 uid=19
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="snowy_grassland_under" index=14 uid=63
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="grassland" index=15 uid=73
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="grassland_dunes" index=16 uid=81
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="grassland_ocean" index=17 uid=45
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="grassland_under" index=18 uid=3
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="coniferous_forest" index=19 uid=80
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="coniferous_forest_dunes" index=20 uid=47
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="coniferous_forest_ocean" index=21 uid=108
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="coniferous_forest_under" index=22 uid=52
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="deciduous_forest" index=23 uid=73
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="deciduous_forest_shore" index=24 uid=48
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="deciduous_forest_ocean" index=25 uid=37
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="deciduous_forest_under" index=26 uid=75
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="desert" index=27 uid=32
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="desert_ocean" index=28 uid=87
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="desert_under" index=29 uid=124
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="sandstone_desert" index=30 uid=112
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="sandstone_desert_ocean" index=31 uid=77
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="sandstone_desert_under" index=32 uid=57
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="cold_desert" index=33 uid=9
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="cold_desert_ocean" index=34 uid=79
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="cold_desert_under" index=35 uid=51
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="savanna" index=36 uid=84
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="savanna_shore" index=37 uid=127
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="savanna_ocean" index=38 uid=15
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="savanna_under" index=39 uid=15
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="rainforest" index=40 uid=53
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="rainforest_swamp" index=41 uid=101
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="rainforest_ocean" index=42 uid=28
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added biome: name="rainforest_under" index=43 uid=15
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=0 uid=97
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=1 uid=34
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=2 uid=112
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=3 uid=4
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=4 uid=79
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=5 uid=125
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=6 uid=39
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=7 uid=49
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=8 uid=16
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=9 uid=96
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=10 uid=63
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=11 uid=117
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=12 uid=94
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=13 uid=59
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=14 uid=115
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=15 uid=40
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=16 uid=82
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=17 uid=26
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=18 uid=3
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=19 uid=111
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=20 uid=125
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=21 uid=24
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=22 uid=15
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=23 uid=17
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=24 uid=98
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=25 uid=87
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=26 uid=110
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=27 uid=55
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=28 uid=28
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=29 uid=70
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=30 uid=76
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=31 uid=52
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added ore: name="" index=32 uid=16
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="" index=0 uid=26
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/apple_tree.mts" index=0 uid=96
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:apple_tree" index=1 uid=123
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/apple_log.mts" index=1 uid=75
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:apple_log" index=2 uid=23
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/emergent_jungle_tree.mts" index=2 uid=99
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:emergent_jungle_tree" index=3 uid=63
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/jungle_tree.mts" index=3 uid=33
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:jungle_tree" index=4 uid=9
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:jungle_tree(swamp)" index=5 uid=69
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/jungle_log.mts" index=4 uid=78
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:jungle_log" index=6 uid=110
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/pine_tree.mts" index=5 uid=1
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:pine_tree" index=7 uid=76
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/small_pine_tree.mts" index=6 uid=120
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:small_pine_tree" index=8 uid=79
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/pine_log.mts" index=7 uid=18
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:pine_log" index=9 uid=85
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/acacia_tree.mts" index=8 uid=44
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:acacia_tree" index=10 uid=60
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/acacia_log.mts" index=9 uid=31
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:acacia_log" index=11 uid=82
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/aspen_tree.mts" index=10 uid=14
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:aspen_tree" index=12 uid=35
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/aspen_log.mts" index=11 uid=69
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:aspen_log" index=13 uid=90
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/large_cactus.mts" index=12 uid=14
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:large_cactus" index=14 uid=110
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:cactus" index=15 uid=54
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/papyrus_on_dirt.mts" index=13 uid=89
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:papyrus_on_dirt" index=16 uid=81
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/papyrus_on_dry_dirt.mts" index=14 uid=127
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:papyrus_on_dry_dirt" index=17 uid=51
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/bush.mts" index=15 uid=14
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:bush" index=18 uid=103
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/blueberry_bush.mts" index=16 uid=5
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:blueberry_bush" index=19 uid=102
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/acacia_bush.mts" index=17 uid=76
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:acacia_bush" index=20 uid=28
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added schematic: name="/usr/local/share/multicraft/games/minetest_game/mods/default/schematics/pine_bush.mts" index=18 uid=23
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:pine_bush" index=21 uid=35
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:grass_5" index=22 uid=122
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:grass_4" index=23 uid=43
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:grass_3" index=24 uid=61
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:grass_2" index=25 uid=115
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:grass_1" index=26 uid=35
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:dry_grass_5" index=27 uid=10
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:dry_grass_4" index=28 uid=102
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:dry_grass_3" index=29 uid=79
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:dry_grass_2" index=30 uid=94
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:dry_grass_1" index=31 uid=91
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:fern_3" index=32 uid=22
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:fern_2" index=33 uid=47
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:fern_1" index=34 uid=32
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:junglegrass" index=35 uid=124
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:dry_shrub" index=36 uid=1
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:marram_grass" index=37 uid=67
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="" index=38 uid=118
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="" index=39 uid=8
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:corals" index=40 uid=99
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:kelp" index=41 uid=124
+2023-11-19 13:32:54: INFO[Main]: Mod "default" loaded after 29 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "walls" loaded after 1 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "stairs" loaded after 8 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "give_initial_stuff" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="flowers:rose" index=42 uid=108
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="flowers:tulip" index=43 uid=99
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="flowers:dandelion_yellow" index=44 uid=125
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="flowers:chrysanthemum_green" index=45 uid=13
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="flowers:geranium" index=46 uid=52
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="flowers:viola" index=47 uid=87
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="flowers:dandelion_white" index=48 uid=109
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="flowers:tulip_black" index=49 uid=110
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="flowers:mushroom_brown" index=50 uid=108
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="flowers:mushroom_red" index=51 uid=5
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="default:waterlily" index=52 uid=27
+2023-11-19 13:32:54: INFO[Main]: Mod "flowers" loaded after 2 ms
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="butterflies:butterfly" index=53 uid=60
+2023-11-19 13:32:54: INFO[Main]: Mod "butterflies" loaded after 1 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "fire" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "tnt" loaded after 1 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "env_sounds" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "dungeon_loot" loaded after 1 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "vessels" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="fireflies:firefly_low" index=54 uid=112
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="fireflies:firefly_high" index=55 uid=84
+2023-11-19 13:32:54: INFO[Main]: Mod "fireflies" loaded after 1 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "carts" loaded after 1 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "bucket" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "doors" loaded after 2 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "xpanes" loaded after 1 ms
+2023-11-19 13:32:54: INFO[Main]: Server creating detached inventory "creative_trash"
+2023-11-19 13:32:54: INFO[Main]: Mod "creative" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "bones" loaded after 1 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "boats" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "binoculars" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "game_commands" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "dye" loaded after 1 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "wool" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: ObjDefManager: added decoration: name="farming:cotton_wild" index=56 uid=78
+2023-11-19 13:32:54: INFO[Main]: Mod "farming" loaded after 3 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "smk_custom" loaded after 9 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "beds" loaded after 3 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "spawn" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: Mod "map" loaded after 0 ms
+2023-11-19 13:32:54: INFO[Main]: Server: Calculating media file checksums
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "license.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "carts_cart.blend"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "character.blend"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: ignoring unsupported file extension: "template.txt"
+2023-11-19 13:32:54: INFO[Main]: Server: 921 media files collected
+2023-11-19 13:32:54: INFO[Main]: EmergeManager: Created params 0xffff9f2a3cf0 for thread 0
+2023-11-19 13:32:54: INFO[Main]: ServerEnvironment: Loading environment metadata
+2023-11-19 13:32:54: INFO[Main]: Starting server on 0.0.0.0...
+2023-11-19 13:32:54: ACTION[Main]: World at [/var/lib/multicraft/worlds/prismo]
+2023-11-19 13:32:54: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:30000.
+2023-11-19 13:33:19: INFO[Server]: Server: New connection: "smk" from 192.168.65.1 (peer_id=2)
+2023-11-19 13:33:19: INFO[Server]: Built-in authentication handler adding player 'smk'
+2023-11-19 13:33:19: INFO[Server]: Server: Sending content to [id=2]
+2023-11-19 13:34:46: INFO[Server]: Server: New connection: "smk" from 192.168.65.1 (peer_id=3)
+2023-11-19 13:34:46: INFO[Server]: Server: TOSERVER_SRP_BYTES_A received with based_on=1 and len_A=256.
+2023-11-19 13:34:46: INFO[Server]: Server: Sending content to [id=3]
+2023-11-19 13:34:46: ACTION[Server]: smk [192.168.65.1] joins game. List of players: smk
+2023-11-19 13:34:46: INFO[Server]: Players:
+2023-11-19 13:34:46: INFO[Server]: * smk	RemoteClient 3: m_blocks_sent.size()=0, m_blocks_sending.size()=0, m_nearest_unsent_d=0, m_excess_gotblocks=0
+2023-11-19 13:34:46: INFO[Server]: Peer 3 joined channel sscsm:exec_pipe
+2023-11-19 13:34:46: INFO[Server]: [SSCSM] Sending CSMs on request for smk...
+2023-11-19 13:34:46: INFO[Server]: Peer 3 left channel sscsm:exec_pipe
+2023-11-19 13:34:53: INFO[Emerge-0]: initialEmerge: area: (-128,32,-368)(-17,143,-257)=112x112x112=1404928 (5MB)
+2023-11-19 13:34:53: INFO[Emerge-0]: initialEmerge: area: (-128,-128,-368)(-17,-17,-257)=112x112x112=1404928 (5MB)
+2023-11-19 13:34:56: INFO[Server]: Players:
+2023-11-19 13:34:56: INFO[Server]: * smk	RemoteClient 3: m_blocks_sent.size()=300, m_blocks_sending.size()=0, m_nearest_unsent_d=0, m_excess_gotblocks=0
+2023-11-19 13:34:59: INFO[Server]: ServerMap: Written: 705 blocks, 2056 blocks in memory.
+2023-11-19 13:34:59: INFO[Server]: ServerMap: Blocks modified by: 
+2023-11-19 13:34:59: INFO[Server]:   finishBlockMake: expireDayNightDiff, unknown    1x  310
+2023-11-19 13:34:59: INFO[Server]:   initial, reallocate, setIsUnderground, finishBlockMake: expireDayNightDiff, unknown    1x  122
+2023-11-19 13:34:59: INFO[Server]:   initial, reallocate, setIsUnderground, setGenerated, finishBlockMake: expireDayNightDiff, unknown    1x  123
+2023-11-19 13:34:59: INFO[Server]:   initial, reallocate, setIsUnderground, setGenerated, setNodeNoCheck, finishBlockMake: expireDayNightDiff, unknown    1x   5
+2023-11-19 13:34:59: INFO[Server]:   setGenerated, finishBlockMake: expireDayNightDiff, unknown    1x  118
+2023-11-19 13:34:59: INFO[Server]:   setGenerated, setNodeNoCheck, finishBlockMake: expireDayNightDiff, unknown    1x   4
+2023-11-19 13:34:59: INFO[Server]:   setNodeNoCheck  . . . . . . . . . . . . . .     1x  19
+2023-11-19 13:34:59: INFO[Server]:   setNodeNoCheck, finishBlockMake: expireDayNightDiff, unknown    1x   4
+2023-11-19 13:34:59: INFO[Server]: Server: Maximum lag peaked to 0.18 s
+2023-11-19 13:34:59: ACTION[Server]: smk leaves game. List of players: 
+2023-11-19 13:35:14: INFO[Server]: ServerMap: Written: 15 blocks, 2056 blocks in memory.
+2023-11-19 13:35:14: INFO[Server]: ServerMap: Blocks modified by: 
+2023-11-19 13:35:14: INFO[Server]:   setNodeNoCheck  . . . . . . . . . . . . . .     1x  15
+2023-11-19 13:35:20: INFO[Server]: ServerMap: Unloaded 393 blocks from memory, of which 18 were written, 1663 blocks in memory.
+2023-11-19 13:35:20: INFO[Server]: ServerMap: Blocks modified by: 
+2023-11-19 13:35:20: INFO[Server]:   setTimestamp, Timestamp expired (step)  . .     1x  18
+2023-11-19 13:35:23: INFO[Server]: ServerMap: Unloaded 662 blocks from memory, of which 303 were written, 1001 blocks in memory.
+2023-11-19 13:35:23: INFO[Server]: ServerMap: Blocks modified by: 
+2023-11-19 13:35:23: INFO[Server]:   setTimestamp, Timestamp expired (step)  . .     1x  303
+2023-11-19 13:35:25: INFO[Server]: ServerMap: Unloaded 3 blocks from memory, of which 3 were written, 998 blocks in memory.
+2023-11-19 13:35:25: INFO[Server]: ServerMap: Blocks modified by: 
+2023-11-19 13:35:25: INFO[Server]:   setTimestamp, Timestamp expired (step)  . .     1x   3
+2023-11-19 13:35:29: INFO[Server]: ServerMap: Unloaded 998 blocks from memory, of which 993 were written, 0 blocks in memory.
+2023-11-19 13:35:29: INFO[Server]: ServerMap: Blocks modified by: 
+2023-11-19 13:35:29: INFO[Server]:   setNodeNoCheck  . . . . . . . . . . . . . .     1x   3
+2023-11-19 13:35:29: INFO[Server]:   setTimestamp  . . . . . . . . . . . . . . .     1x  14
+2023-11-19 13:35:29: INFO[Server]:   setTimestamp, Timestamp expired (step)  . .     1x  976
+2023-11-19 13:35:29: INFO[Server]: Server: Maximum lag peaked to 0.36 s
