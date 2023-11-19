@@ -1,4 +1,4 @@
 prismo/auth.sqlite
 prismo/map.sqlite
 prismo/players.sqlite
-prismo/current.txt
+prismo/*.txt
