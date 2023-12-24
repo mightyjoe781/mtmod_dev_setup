@@ -3,6 +3,8 @@ version: '3.6'
 services:
   mc:
     build: ./docker/
+    container_name: prismo_dev
+    image: smk781/mtmod_dev_setup
     entrypoint: "/usr/local/bin/multicraftserver --world /var/lib/multicraft/worlds/prismo --config /multicraft.conf"
     user: root
     volumes:
