@@ -1,0 +1,19 @@
+version: '3.6'
+
+services:
+  mc:
+    build: ./docker/
+    container_name: prismo_dev
+    image: smk781/mtmod_dev_setup
+    entrypoint: "/usr/local/bin/multicraftserver --world /var/lib/multicraft/worlds/prismo --config /multicraft.conf"
+    user: root
+    volumes:
+      - "./mods:/var/lib/multicraft/worlds/prismo/worldmods"
+      - "./test/world.mt:/var/lib/multicraft/worlds/prismo/world.mt"
+      - "./test/multicraft.conf:/multicraft.conf"
+      - "prismo:/var/lib/multicraft/worlds/prismo"
+    ports:
+      - "30000:30000/udp"
+
+volumes:
+  prismo: {}

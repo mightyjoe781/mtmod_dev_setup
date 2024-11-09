@@ -1,5 +1,4 @@
 ## Steps
 
-* run vscode task (attached volume and exposes ports from container) (need to compose)
-* inside container execute /entrypoint.sh
-* to restart-world just terminate & restart entrypoint.sh# mtmod_dev_setup
+* Create a new folder inside mods/my_new_mod
+* then do: docker compose up

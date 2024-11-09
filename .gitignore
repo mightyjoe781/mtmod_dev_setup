@@ -1,4 +1,2 @@
-prismo/auth.sqlite
-prismo/map.sqlite
-prismo/players.sqlite
-prismo/*.txt
+.DS_Store
+*animalia*
