@@ -9,8 +9,8 @@ services:
     user: root
     volumes:
       - "./mods:/var/lib/multicraft/worlds/prismo/worldmods"
-      - "./test/world.mt:/var/lib/multicraft/worlds/prismo/world.mt"
-      - "./test/multicraft.conf:/multicraft.conf"
+      - "./config/world.mt:/var/lib/multicraft/worlds/prismo/world.mt"
+      - "./config/multicraft.conf:/multicraft.conf"
       - "prismo:/var/lib/multicraft/worlds/prismo"
     ports:
       - "30000:30000/udp"
