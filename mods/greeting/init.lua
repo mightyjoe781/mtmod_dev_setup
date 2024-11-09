@@ -1,1 +1,0 @@
-print("[GREETINGS] MOD Loaded")

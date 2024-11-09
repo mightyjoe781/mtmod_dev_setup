@@ -1,3 +1,4 @@
 .DS_Store
 mods/
+!mods/greeting
 !mods/mods_here.txt
